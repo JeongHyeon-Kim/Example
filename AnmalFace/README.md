@@ -1,5 +1,8 @@
 index.py : 실시간 검색어 순위 목록 추출
+
 google.py : google_images_download를 통한 이미지 다운로드(현재 진행 X)
+
+image.py : naver에서 이미지 검색 후 다운로드
 
 참고
 
