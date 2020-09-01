@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="file-upload-content">
-                <img class="file-upload-image" src="#" alt="your image" />
+                <img class="file-upload-image" id="face-image" src="#" alt="your image" />
                 <div class="image-title-wrap">
                     <button type="button" onclick="removeUpload()" class="remove-image">
                         Remove <span class="image-title">Uploaded Image</span>
@@ -104,8 +104,9 @@
 
             // run the webcam image through the image model
             async function predict() {
+              var image = document.getElementById('face-image')
                 // predict can take in an image, video or canvas html element
-                const prediction = await model.predict(___);
+                const prediction = await model.predict(image, false);
                 for (let i = 0; i < maxPredictions; i++) {
                     const classPrediction =
                         prediction[i].className + ': ' + prediction[i].probability.toFixed(2);
