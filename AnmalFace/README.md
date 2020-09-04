@@ -27,3 +27,5 @@ image training : Teachable Machine 사용하여 적용
 - 디자인을 코드로 변환하는 zeplin을 이용하여 웹을 제작할 예정
 
 - 개발을 모르는 디자이너가 웹을 개발하거나 디자이너가 개발자에게 업무한 내용을 전달할 때 사용
+
+[코딩 없이 댓글기능 구현하기](https://youtu.be/EwBoKEG5GzE)
