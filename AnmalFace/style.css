@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #eeeeee;
+  background-color: #ffffff;
 }
 
 .file-upload {
@@ -113,4 +113,18 @@ body {
 .remove-image:active {
   border: 0;
   transition: all .2s ease;
+}
+
+.nav-distance {
+    padding: 2.1% 7.7%
+}
+
+.navbar-light .navbar-brand {
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
 }
