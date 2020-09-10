@@ -1,0 +1,14 @@
+#form_body {
+  margin: 20px 0px 0px 0px;
+}
+#salcacl_header {
+  padding: 0px 0px 30px 0px;
+}
+label{
+  display:inline-block;
+  width:150px;
+  text-align:right;
+}
+button {
+  width:150px;
+}
