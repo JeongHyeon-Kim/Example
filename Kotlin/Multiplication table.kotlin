@@ -1,0 +1,11 @@
+// Operation Check: https://repl.it/talk/share/Implementing-code-of-multiplication-table/79774
+
+import java.util.*
+
+fun main(args: Array<String>) {
+    val sc = Scanner(System.`in`)
+    val multi_start = sc.nextInt()
+
+    for (i: Int in 1..9)
+    	println("$multi_start * $i = "+multi_start*i);
+}
